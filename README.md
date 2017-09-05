@@ -8,6 +8,13 @@
 
 For safety, you should probably wrap the above in a try/catch block to handle any exceptions that may occur (the library hasnt been fully tested).
 
+## Usage (VB):
+
+* Add a reference to the DiscSN.dll
+* Dim serial As String = DiscSN.SerialNumber.GetPSXSerial("\path\to\cueorccd")
+
+For safety, you should probably wrap the above in a try/catch block to handle any exceptions that may occur (the library hasnt been fully tested).
+
 ## Attribution
 This library uses code from BizHawk multi-system emulator - https://github.com/TASVideos/BizHawk
 It also uses the LinqBridge assembly by Atif Aziz - https://www.nuget.org/packages/LinqBridge/1.3.0
