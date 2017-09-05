@@ -11,7 +11,7 @@ For safety, you should probably wrap the above in a try/catch block to handle an
 ## Usage (VB):
 
 * Add a reference to the DiscSN.dll
-* Dim serial As String = DiscSN.SerialNumber.GetPSXSerial("\path\to\cueorccd")
+* Dim serial As String = DiscSN.SerialNumber.GetPSXSerial("\path\to\cue_or_ccd_file")
 
 For safety, you should probably wrap the above in a try/catch block to handle any exceptions that may occur (the library hasnt been fully tested).
 
