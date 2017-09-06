@@ -14,7 +14,7 @@ namespace TestApp
             string psxResult = SerialNumber.GetPSXSerial(psxPath);
             Console.WriteLine(psxResult);
 
-            psxPath = @"G:\_Emulation\PSX\iso\Tekken 3 (E) [SCES-01237]\Tekken 3 (E) [SCES-01237].cue";
+            psxPath = @"G:\_Emulation\PSX\iso\Tekken 3 (E) [SCES-01237]\E-DAYUSA.iso";
             psxResult = SerialNumber.GetPSXSerial(psxPath);
             Console.WriteLine(psxResult);
 
